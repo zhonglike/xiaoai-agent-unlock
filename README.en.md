@@ -164,4 +164,5 @@ dotnet bin/Release/net8.0/Patcher.dll <original.dll> <output.dll> --wakeup
 - A patched installer loses its digital signature; Windows may warn about an "unknown publisher" — choose "Run anyway".
 - The voice wake-up toggle becomes visible, but that feature depends on model-specific audio hardware and will likely not work on non-Xiaomi machines.
 - **This tool bypasses a vendor's model restriction. It is an unofficial modification and may violate the software license agreement. For personal, local research and study only. Use at your own risk.**
-- Redistribution of Xiaomi's original binaries is subject to Xiaomi's copyright. This repository contains only tooling and scripts; obtain the official installer yourself.
+- This repository includes prebuilt patched DLLs and their original backups, which are derived from Xiaomi's proprietary binaries. Redistributing them may constitute copyright infringement and could result in a DMCA takedown. If you prefer a version with no vendor binaries, delete `patches/*/XiaoaiAgent.dll*` and generate patches locally with `tools/Patcher` against your own installation.
+- The official installer is **not** included — download it from Xiaomi yourself.
