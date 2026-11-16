@@ -1,10 +1,13 @@
 # 超级小爱 / 小爱同学 PC 版 —— 设备校验绕过
 
 **中文** | [English](README.en.md)
+相比于此项目，我们还是建议您使用小米官方的“小米互联服务”下载时自带的“超级小爱”支持所有Windows客户端
 
 让小米笔记本专属的「小爱同学 / 超级小爱」PC 客户端跑在**任意品牌**的电脑上。
 
 仓库地址：https://github.com/zhonglike/xiaoai-agent-unlock
+
+官方“小米互联服务”Windows版官网网址https://hyperos.mi.com/continuity 下载地址https://hyperconnect.hyperos.mi.com/hyper-connect/HyperConnect_AI.exe
 
 ---
 
